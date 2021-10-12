@@ -1,9 +1,11 @@
+import {AppS} from './styles';
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <AppS>
+      <Home/>
+    </AppS>
   );
 }
 
